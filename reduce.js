@@ -5,7 +5,7 @@ Examples:
     const arr = [{name: 'Elie'}, {name: 'Tim'}, {name: 'Matt'}, {name: 'Colt'}]
     extractValue(arr,'name') // ['Elie', 'Tim', 'Matt', 'Colt']
 */
-
+ 
 function extractValue(arr, key) {
     return arr.reduce(function(item, next) {
         item.push(next[key])
